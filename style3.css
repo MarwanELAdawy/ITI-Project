@@ -7,6 +7,42 @@
     font-size: 14px;
     height: 100%;
  }
+ .footer{
+  background-color: rgba(0,0,0,.96);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 1900px;
+  height: 450px;
+  
+}
+.logo2{
+  color: aliceblue;
+}
+
+.icon2{
+  font-size: 20px;
+  padding: 10px
+}
+.icon2:hover{
+color:  rgba(95, 186, 55,.9); 
+  
+}
+.i2{
+  text-decoration:none;
+}
+.imgs{
+  width:70px;
+  height: 70px;
+  padding: 5px;
+ 
+  border-color:  rgba(0,0,0,.9);
+}
+.imgs:hover{
+  border-color: rgba(95, 186, 55,.9); ;
+   border-style: solid;
+}
 
  h1,
 h2,
