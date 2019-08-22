@@ -1,0 +1,76 @@
+body{
+    width: 100%
+}
+.bt{
+    width:160px;
+    height: 65px;
+    margin: 10px;
+    border: none;
+    color: rgba(255,255,255,.9);
+    font-weight: bold;
+    font-size: 16px;
+}
+.b1{
+    background-color: rgba(95, 186, 55,.9);
+}
+.b2{
+    background-color: black;
+}
+.b2:hover{
+    background-color: rgba(95, 186, 55,.9);
+    transition: all 1s;
+}
+.b3{
+    background-color: rgba(95, 186, 55,.9);
+}
+.b3:hover{
+    background-color: black;
+    transition: all 1s;
+    /* JAVA SCRIPT ----BACKGROUND*/
+}
+.b4{
+    background-color: white;
+    color: grey;
+    border-color: rgba(95, 186, 55,.9);
+    border-style: solid;
+}
+.b4:hover{
+    background-color: rgba(95, 186, 55,.9);
+    color: rgba(255,255,255,.9);
+     /* JAVA SCRIPT ----BACKGROUND*/
+}
+.b{
+      background-color: rgba(95, 186, 55,.9);
+    color: rgba(255,255,255,.9);
+    width: 150px;
+    height: 55px;
+}
+.w{
+    text-align:none;
+    padding: 40px;
+    position: absolute;
+    left: 58px;
+   
+}
+.icon{
+     font-size: 60px;
+     color:rgba(95, 186, 55,.9); 
+      margin: auto;
+}
+.n{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.f{font-size: 20px;}
+
+.m{margin: auto;}
+
+.loader {
+  border: 15px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rgba(95, 186, 55,.9);
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
